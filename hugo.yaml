@@ -1,0 +1,8 @@
+---
+baseURL: https://blog.akindev.xyz/
+languageCode: en-us
+title: Abdulmumin's Musings
+theme: ["PaperMod"]
+params:
+  contact:
+    email: "akindeabdulmumin@gmail.com"
