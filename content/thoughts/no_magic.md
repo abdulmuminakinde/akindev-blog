@@ -1,6 +1,5 @@
 ---
 date: "2025-01-24T14:08:50+01:00"
-draft: false
 title: "There is no magic: Only Abstractions"
 author: "Abdulmumin"
 ---
