@@ -3,6 +3,50 @@ baseURL: https://blog.akindev.xyz/
 languageCode: en-us
 title: Abdulmumin's Musings
 theme: ["PaperMod"]
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 4
+    - identifier: linkedin
+      name: LinkedIn
+      url: https://www.linkedin.com/in/abdulmuminakinde/
+    - identifier: github
+      name: Github
+      url: https://github.com/abdulmuminakinde
+
 params:
+  title: "Abdulmumin's Musings"
+  author: "Abdulmumin Akinde"
+  robotsNoIndex: false
+  description: "A blog about tech, life, and everything in between."
+  keywords:
+    [
+      "Abdulmumin Akinde",
+      "Abdulmumin",
+      "blog",
+      "tech",
+      "go",
+      "python",
+      "software engineering",
+      "API",
+      "Golang",
+    ]
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
   contact:
     email: "akindeabdulmumin@gmail.com"
+  homeInfoParams:
+    Title:
+      Hi, I'm [Abdulmumin](/about) <a href="/index.xml" title="RSS" aria-label="RSS"> <svg
+      xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+      stroke="currentColor" stroke-width="2" height="23"> <path d="M4 11a9 9 0 0 1 9 9"/>
+      <path d="M4 4a16 16 0 0 1 16 16"/> <circle cx="5" cy="19" r="1"/> </svg> </a>
+    Content: A quiet builder of tools, tales and tangents.
+  mainSections:
+    - misc
+    - go
+    - thoughts
