@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-01-24T14:08:50+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/thoughts/no_magic/</loc>
-    <lastmod>2025-01-24T14:08:50+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/thoughts/</loc>
-    <lastmod>2025-01-24T14:08:50+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-  </url>
-</urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://blog.akindev.xyz/</loc><lastmod>2025-01-24T14:08:50+02:00</lastmod></url><url><loc>https://blog.akindev.xyz/thoughts/no_magic/</loc><lastmod>2025-01-24T14:08:50+02:00</lastmod></url><url><loc>https://blog.akindev.xyz/thoughts/</loc><lastmod>2025-01-24T14:08:50+02:00</lastmod></url><url><loc>https://blog.akindev.xyz/categories/</loc></url><url><loc>https://blog.akindev.xyz/tags/</loc></url></urlset>

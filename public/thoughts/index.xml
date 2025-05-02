@@ -1,22 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Thoughts on Abdulmumin&#39;s Musings</title>
-    <link>http://localhost:1313/thoughts/</link>
-    <description>Recent content in Thoughts on Abdulmumin&#39;s Musings</description>
-    <generator>Hugo -- 0.146.2</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jan 2025 14:08:50 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/thoughts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>There is no magic: Only Abstractions</title>
-      <link>http://localhost:1313/thoughts/no_magic/</link>
-      <pubDate>Fri, 24 Jan 2025 14:08:50 +0100</pubDate>
-      <guid>http://localhost:1313/thoughts/no_magic/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;&amp;ldquo;Magic is just an abstraction you don&amp;rsquo;t understand.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;I came across a post from Preston Thorpe, a brilliant, incarcerated software engineer. He wrote an &lt;a href=&#34;https://pthorpe92.dev/intro/my-story/&#34;&gt;article&lt;/a&gt; about how he became a professional software engineer from the prison. No, you aren&amp;rsquo;t hallucinating. Prison! Truly inspiring, but I digress.&lt;/p&gt;
-&lt;p&gt;I then checked out &lt;a href=&#34;https://pthorpe92.dev/programming/magic/&#34;&gt;another of his posts&lt;/a&gt; titled &amp;ldquo;Magic isn&amp;rsquo;t real.&amp;rdquo; While this is already beautifully written and packed with lessons and nuggets, it made me reflect on my own journey, and I thought to share.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Thoughts on Abdulmumin's Musings</title><link>https://blog.akindev.xyz/thoughts/</link><description>Recent content in Thoughts on Abdulmumin's Musings</description><generator>Hugo -- 0.146.2</generator><language>en-us</language><lastBuildDate>Fri, 24 Jan 2025 14:08:50 +0200</lastBuildDate><atom:link href="https://blog.akindev.xyz/thoughts/index.xml" rel="self" type="application/rss+xml"/><item><title>There is no magic: Only Abstractions</title><link>https://blog.akindev.xyz/thoughts/no_magic/</link><pubDate>Fri, 24 Jan 2025 14:08:50 +0200</pubDate><guid>https://blog.akindev.xyz/thoughts/no_magic/</guid><description>&lt;blockquote>
+&lt;p>&lt;em>&amp;ldquo;Magic is just an abstraction you don&amp;rsquo;t understand.&amp;rdquo;&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;p>I came across a post from Preston Thorpe, a brilliant, incarcerated software engineer. He wrote an &lt;a href="https://pthorpe92.dev/intro/my-story/">article&lt;/a> about how he became a professional software engineer from the prison. No, you aren&amp;rsquo;t hallucinating. Prison! Truly inspiring, but I digress.&lt;/p>
+&lt;p>I then checked out &lt;a href="https://pthorpe92.dev/programming/magic/">another of his posts&lt;/a> titled &amp;ldquo;Magic isn&amp;rsquo;t real.&amp;rdquo; While this is already beautifully written and packed with lessons and nuggets, it made me reflect on my own journey, and I thought to share.&lt;/p></description></item></channel></rss>
