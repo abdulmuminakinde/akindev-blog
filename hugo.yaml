@@ -36,11 +36,6 @@ params:
       "Golang",
     ]
 
-  analytics:
-    umami:
-      data_website_id: "b9dff408-d434-4d56-b982-805a1ea0722a"
-      src: "https://cloud.umami.is/script.js"
-
   disableScrollToTop: false
   ShowShareButtons: false
   ShowPostNavLinks: true
