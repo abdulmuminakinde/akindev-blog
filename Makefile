@@ -19,7 +19,7 @@ init:
 
 lint:
 	git status --porcelain | awk '{print $$2}' | xargs -r uvx pre-commit run --files
-	git status --porcelain | awk '{print $$2}' | grep '.md' | xargs -n q prettier --write
+	git status --porcelain | awk '{print $$2}' | grep '.md' | xargs -n 1 prettier --write
 
 update:
 	git submodule update --remote --merge
@@ -30,14 +30,44 @@ devserver:
 	hugo server --disableFastRender -e production --bind 0.0.0.0 --ignoreCache
 
 convert-jpgs:
+	@mkdir -p .cache
+	@touch .cache/converted-jpgs
 	find static/images/ -iname '*.jpg' -o -iname '*.jpeg' | while read filepath; do \
-		newpath="$${filepath%.*}.png"; \
-		magick "$$filepath" "$$newpath" && rm "$$filepath"; \
+		hash=$$(sha256sum "$$filepath" | cut -d ' ' -f1); \
+		if grep -q "$$hash" .cache/converted-jpgs; then \
+			echo "Skipping already converted: $$filepath"; \
+		else \
+			newpath="$${filepath%.*}.png"; \
+			magick "$$filepath" "$$newpath" && rm "$$filepath"; \
+			echo "$$hash $$filepath -> $$newpath" >> .cache/converted-jpgs; \
+		fi \
 	done
 
 upload-static: convert-jpgs
-	oxipng -o 6 -r static/images/
+	@mkdir -p .cache
+	@touch .cache/oxipng-hashes
+	@touch .cache/uploaded-files
+	
+	# Optimize PNGs with caching
+	find static/images -type f -name '*.png' | while read filepath; do \
+		hash=$$(sha256sum "$$filepath" | cut -d ' ' -f1); \
+		if grep -q "$$hash" .cache/oxipng-hashes; then \
+			echo "Skipping already optimized: $$filepath"; \
+		else \
+			oxipng -o 6 "$$filepath"; \
+			echo "$$hash $$filepath" >> .cache/oxipng-hashes; \
+		fi \
+	done
+	
+	# Upload with caching
 	find static -type f | while read filepath; do \
 		key=$$(echo "$$filepath" | sed 's|^|akindev-blog/|'); \
-		wrangler r2 object put $$key --file "$$filepath" --remote; \
+		file_hash=$$(sha256sum "$$filepath" | cut -d ' ' -f1); \
+		cache_entry="$$file_hash $$key"; \
+		if grep -q "$$cache_entry" .cache/uploaded-files; then \
+			echo "Skipping already uploaded: $$key"; \
+		else \
+			wrangler r2 object put "$$key" --file "$$filepath" --remote; \
+			echo "$$cache_entry" >> .cache/uploaded-files; \
+		fi \
 	done
