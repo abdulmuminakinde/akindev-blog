@@ -18,6 +18,13 @@ menu:
       name: Github
       url: https://github.com/abdulmuminakinde
 
+taxonomies:
+  tag: tags
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
 params:
   title: "Abdulmumin's Musings"
   author: "Abdulmumin Akinde"
@@ -36,6 +43,8 @@ params:
       "Golang",
     ]
 
+  defaultTheme: dark
+  disableThemeToggle: true
   disableScrollToTop: false
   ShowShareButtons: false
   ShowPostNavLinks: true
@@ -59,12 +68,12 @@ params:
 
 markup:
   highlight:
-    noClasses: false
+    noClasses: true
     # anchorLineNos: true
     codeFences: true
     guessSyntax: true
     # lineNos: true
-    style: syntax-highlight
+    style: github-dark
     tabWidth: 4
   goldmark:
     extensions:
