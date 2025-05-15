@@ -39,6 +39,12 @@ params:
   disableScrollToTop: false
   ShowShareButtons: false
   ShowPostNavLinks: true
+  UseHugoToc: true
+  hidemeta: false
+  showtoc: true
+  hideFooter: false
+  ShowCodeCopyButtons: true
+  showReadingTime: true
   ShowBreadCrumbs: true
   contact:
     email: "akindeabdulmumin@gmail.com"
