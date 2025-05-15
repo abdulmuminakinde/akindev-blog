@@ -1,2 +1,57 @@
+<meta name="google-site-verification" content="jMK3WVoWHKfYuLXpzh3GWkkqk7fZnU7tGsqt5N2FOqU" />
 <!-- Umami Analytics -->
 <script defer src="https://cloud.umami.is/script.js" data-website-id="b9dff408-d434-4d56-b982-805a1ea0722a"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll("pre > code").forEach((codeBlock) => {
+    const button = document.createElement("button");
+    button.className = "copy-button";
+    button.textContent = "Copy";
+
+    button.addEventListener("click", () => {
+      navigator.clipboard.writeText(codeBlock.innerText).then(() => {
+        button.textContent = "Copied!";
+        setTimeout(() => (button.textContent = "Copy"), 2000);
+      });
+    });
+
+    const pre = codeBlock.parentNode;
+    pre.appendChild(button);
+  });
+});
+</script>
+
+<style>
+pre {
+  position: relative;
+}
+
+pre code.language-json {
+  white-space: pre-wrap !important;
+  word-break: break-word !important;
+}
+
+.copy-button {
+  display: none;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  padding: 2px 8px;
+  font-size: 0.8rem;
+  background: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+pre:hover .copy-button {
+  display: block;
+}
+.copy-button:hover {
+  opacity: 1;
+}
+</style>
