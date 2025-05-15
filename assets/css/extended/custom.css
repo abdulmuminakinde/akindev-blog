@@ -1,0 +1,8 @@
+pre {
+  position: relative;
+}
+
+pre code.language-json {
+  white-space: pre-wrap !important;
+  word-break: break-word !important;
+}
