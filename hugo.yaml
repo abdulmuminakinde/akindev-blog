@@ -66,6 +66,13 @@ params:
     - thoughts
     - projects
 
+  assets:
+    favicon: "https://assets.akindev.xyz/static/images/abdulmumin-32x32.webp"
+    favicon16x16: "https://assets.akindev.xyz/static/images/abdulmumin-16x16.webp"
+    favicon32x32: "https://assets.akindev.xyz/static/images/abdulmumin-32x32.webp"
+    apple_touch_icon: "https://assets.akindev.xyz/static/images/abdulmumin-180x180.webp"
+    safari_pinned_tab: "https://assets.akindev.xyz/static/images/abdulmumin.svg"
+
 markup:
   highlight:
     noClasses: true
