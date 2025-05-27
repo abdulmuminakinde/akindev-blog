@@ -67,11 +67,17 @@ params:
     - projects
 
   assets:
-    favicon: "https://assets.akindev.xyz/static/images/abdulmumin-32x32.webp"
+    favicon: "https://assets.akindev.xyz/static/images/favicon_120.svg"
     favicon16x16: "https://assets.akindev.xyz/static/images/abdulmumin-16x16.webp"
     favicon32x32: "https://assets.akindev.xyz/static/images/abdulmumin-32x32.webp"
-    apple_touch_icon: "https://assets.akindev.xyz/static/images/abdulmumin-180x180.webp"
-    safari_pinned_tab: "https://assets.akindev.xyz/static/images/abdulmumin.svg"
+    apple_touch_icon: "https://assets.akindev.xyz/static/images/abdulmumin-179x180.webp"
+    safari_pinned_tab: "https://assets.akindev.xyz/static/images/favicon_120.svg"
+
+  label:
+    text: "Abdulmumin's Musings"
+    icon: "https://assets.akindev.xyz/static/images/favicon.svg"
+    iconHeight: 23
+    iconWidth: 23
 
 markup:
   highlight:
