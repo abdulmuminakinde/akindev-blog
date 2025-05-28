@@ -163,7 +163,8 @@ Of course this only works if I have a file called `docker-compose.dev.yml` and a
 cd ~
 ```
 
-This one is a classic and I assume you've seen it somewhere. I thought it still deserved a spot on our list. You can always find your way home from anywhere no matter how deep you are in the nested filepath.
+A classic. I assume you've seen it somewhere. I thought it still deserved a spot on our list.
+With this command, you can always find your way home from anywhere no matter how deep you are in a nested filepath.
 
 ### 8. Jump back to your previous directory
 
