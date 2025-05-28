@@ -8,7 +8,7 @@ cover:
   image: "https://assets.akindev.xyz/static/images/linux_cover.png"
   alt: "Linux shell picture"
   hidden: false
-  hiddenInList: false
+  hiddenInList: true
   hiddenInSingle: false
 ---
 
@@ -16,7 +16,7 @@ As engineers, we obsess over speed (code and machine). Yet the slowest part of o
 
 We live in the terminal, navigating directories, manipulating files and running various commands trying to get work done. Being a text-based environment, terminal operations sometimes can slow us to a crawl with long commands and typos.
 
-There are tricks (with a bit of learning curve) that we can incorporate that speed up our interactions on the command line. You may argue that plugins such as Oh My Zsh or fish shell features make navigation and autocomplete easier. But these tricks are baked into bash itself, meaning that they work everywhere. They will work on your lightweight servers, Docker containers and any other system where you don't have access to your preferred setup. Plus they're reliable and fast.
+There are tricks (with a bit of a learning curve) that we can incorporate that speed up our interactions on the command line. You may argue that plugins such as Oh My Zsh or fish shell features make navigation and autocomplete easier. But these tricks are baked into bash itself, meaning that they work everywhere. They will work on your lightweight servers, Docker containers and any other system where you don't have access to your preferred setup. Plus they're reliable and fast.
 
 Here are 11 Linux shell tricks that you probably don't know and will change how you work in the terminal.
 
