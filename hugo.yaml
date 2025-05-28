@@ -31,7 +31,7 @@ taxonomies:
 params:
   title: "Abdulmumin's Musings"
   author: "Abdulmumin Akinde"
-  images: ["https://assets.akindev.xyz/static/images/cover.png"]
+  images: ["https://assets.akindev.xyz/static/images/site_cover.png"]
   robotsNoIndex: false
   description: "A blog about tech, life, and everything in between."
   keywords:
@@ -87,7 +87,7 @@ params:
     iconWidth: 23
 
   cover:
-    image: "https://assets.akindev.xyz/static/images/cover.png"
+    image: "https://assets.akindev.xyz/static/images/site_cover.png"
     alt: "Site cover image"
     caption: ""
     relative: false
