@@ -90,7 +90,7 @@ This works because the argument index of `dir/file2.md` is 2. If you were to run
 
 ```sh
 bat !:1
-# [bat error]: 'kdjd': No such file or directory (os error 2)
+# [bat error]: 'dir/file1.md': No such file or directory (os error 2)
 ```
 
 after the rename command, you would get an error as shown because the `dir/file1.md` does not exist anymore.
