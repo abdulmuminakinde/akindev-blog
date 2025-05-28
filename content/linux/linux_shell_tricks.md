@@ -4,6 +4,12 @@ draft: false
 title: "Linux Shell Tricks To Speed Up Your Workflow"
 author: "Abdulmumin"
 tags: ["linux", "productivity"]
+cover:
+  image: "https://assets.akindev.xyz/static/images/linux_cover.png"
+  alt: "Linux shell picture"
+  hidden: false
+  hiddenInList: false
+  hiddenInSingle: false
 ---
 
 As engineers, we obsess over speed (code and machine). Yet the slowest part of our workflow is often... us.

@@ -1,5 +1,5 @@
 ---
-baseURL: https://blog.akindev.xyz
+baseURL: https://blog.akindev.xyz/
 languageCode: en-us
 title: Abdulmumin's Musings
 theme: ["PaperMod"]
@@ -44,6 +44,7 @@ params:
       "python",
       "software engineering",
       "API",
+      "linux",
       "Golang",
       "psychology",
     ]
@@ -74,14 +75,14 @@ params:
 
   assets:
     favicon: "https://assets.akindev.xyz/static/images/abdulmumin-32x32.webp"
-    favicon16x16: "https://assets.akindev.xyz/static/images/abdulmumin-16x16.webp"
+    favicon16x16: "https://assets.akindev.xyz/static/images/abdulmumin-32x32.webp"
     favicon32x32: "https://assets.akindev.xyz/static/images/abdulmumin-32x32.webp"
     apple_touch_icon: "https://assets.akindev.xyz/static/images/abdulmumin-32x32.webp"
     safari_pinned_tab: "https://assets.akindev.xyz/static/images/abdulmumin-32x32.webp"
 
   label:
     text: "Abdulmumin's Musings"
-    icon: "https://assets.akindev.xyz/static/images/abdulmumin.svg"
+    icon: "https://assets.akindev.xyz/static/images/abdulmumin-16x16.webp"
     iconHeight: 23
     iconWidth: 23
 
@@ -89,7 +90,7 @@ params:
     hidden: false # hide everywhere but not in structured data
     hiddenInList: false # hide on list pages and home
     hiddenInSingle: false # hide on single page
-    image: "https://assets.akindev.xyz/static/images/cover.png"
+    image: https://assets.akindev.xyz/static/images/cover.png
 
 markup:
   highlight:
