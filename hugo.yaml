@@ -1,10 +1,17 @@
 ---
-baseURL: https://blog.akindev.xyz/
+baseURL: https://blog.akindev.xyz
 languageCode: en-us
 title: Abdulmumin's Musings
 theme: ["PaperMod"]
 pluralizelisttitles: false
+enableRobotsTXT: true
 
+minify:
+  disableXML: true
+  minifyOutput: true
+
+pagination:
+  pagerSize: 20
 menu:
   main:
     - identifier: about
@@ -20,10 +27,6 @@ menu:
 
 taxonomies:
   tag: tags
-
-minify:
-  disableXML: true
-  minifyOutput: true
 
 params:
   title: "Abdulmumin's Musings"
@@ -81,6 +84,12 @@ params:
     icon: "https://assets.akindev.xyz/static/images/abdulmumin.svg"
     iconHeight: 23
     iconWidth: 23
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+    image: https://assets.akindev.xyz/static/images/cover.png""
 
 markup:
   highlight:
