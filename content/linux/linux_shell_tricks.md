@@ -134,7 +134,7 @@ cur https://localhost:8000
 # runs curl https://localhost:8000
 ```
 
-Another nice way to use this trick is when you want to replace change a file extension in a command.
+Another nice way to use this trick is when you want to change a file extension in a command.
 
 ```sh
 # to extract a compressed file to current directory
