@@ -144,7 +144,7 @@ tar -xvf long/path/to/file.zip
 # runs tar -xvf long/path/to/file.tar.gz
 ```
 
-I have used this to swap variables in a command.
+I have also used this to swap variables in a command like so:
 
 ```sh
 # to run a docker container with the development compose file
@@ -153,7 +153,7 @@ docker compose up --build -f docker-compose.dev.yml
 ^dev^prod
 ```
 
-This works if I have a file called `docker-compose.dev.yml` and a file called `docker-compose.prod.yml`. I don't have to type the whole command and can just swap the variables as shown.
+Of course this only works if I have a file called `docker-compose.dev.yml` and another called `docker-compose.prod.yml` in my current directory. I don't have to type the whole command and can just swap the variables as shown.
 
 ## Navigation Tricks
 
