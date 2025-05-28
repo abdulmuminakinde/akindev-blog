@@ -42,6 +42,7 @@ params:
       "software engineering",
       "API",
       "Golang",
+      "psychology",
     ]
 
   defaultTheme: dark
@@ -65,6 +66,7 @@ params:
     - misc
     - go
     - thoughts
+    - linux
     - projects
 
   assets:
